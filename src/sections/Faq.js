@@ -15,28 +15,32 @@ const Faq = ({ id }) => {
     {
       id: 2,
       question: "Can I change my plan later?",
-      answer: "Yes, you can change your plan at any time. Simply contact us at",
+      answer:
+        "Yes, flexibility is key at WiderAI. You can upgrade or downgrade your plan at any time to find the perfect fit for your study needs.",
     },
     {
       id: 3,
       question: "What is your cancellation policy?",
-      answer: "You can cancel your subscription at any time.",
+      answer:
+        "WiderAI operates with a hassle-free cancellation policy. You can cancel your subscription at any time with no additional charges, and your access will continue until the end of the current billing period.",
     },
     {
       id: 4,
       question: "Is there any rewards or bonuses for refarrals?",
-      answer: "Yes, we have a referral program. Please contact us at",
+      answer:
+        "WiderAI offers a rewarding referral program. When you refer friends or colleagues to our platform, both you and your referrals receive bonus study time after they sign up for a paid plan. It's our way of saying thank you for spreading the word about WiderAI.",
     },
     {
       id: 5,
       question: "How does billing work?",
       answer:
-        "You can pay monthly or yearly. We accept all major credit cards.",
+        "After your free trial, if you choose to continue, we'll bill you on a monthly or yearly basis depending on the subscription plan you select. Billing occurs at the beginning of each cycle, and you'll receive an email reminder before each payment is due.",
     },
     {
       id: 6,
       question: "How do I change my account email?",
-      answer: "You can change your email address by contacting us at",
+      answer:
+        "You can change your account email at any time through the settings in your WiderAI account. If you need any assistance, our customer support team is just an email away.",
     },
   ];
 
