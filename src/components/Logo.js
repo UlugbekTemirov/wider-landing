@@ -1,7 +1,8 @@
 import React from "react";
+import logoSvg from "../assets/logo.svg";
 
 const Logo = () => {
-  return <h1 className="font-semibold text-xl">WiderAI</h1>;
+  return <img src={logoSvg} alt="logo" />;
 };
 
 export default Logo;

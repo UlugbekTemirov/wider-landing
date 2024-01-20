@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 .navlink::after {
   content: " ";
   display: block;
