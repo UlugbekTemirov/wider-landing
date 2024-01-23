@@ -12,23 +12,23 @@ const Benefits = ({ id }) => {
   const benefits = [
     {
       id: 1,
-      title: "Manage",
+      title: "Cost-effective",
       description:
         "I don't have to spend too much money for this daily speaking I have",
       icon: PiChatsCircleBold, // chat icon
     },
     {
       id: 2,
-      title: "Deliver  answers",
+      title: "No Appointments Needed!",
       description:
         "The possibility to record my speech and get feedback without the need to arrange appointments is the fastest benefit I get from WiderAI",
       icon: AiOutlineThunderbolt, // thunder icon
     },
     {
       id: 3,
-      title: "Share team inboxes",
+      title: "Seamless Speech Enhancement",
       description:
-        "It can evaluate my pronunciation and reveal my grammar mistakes and sometimes pronunciation mistakes for my speaking",
+        "Beyond Words: WiderAI Identifies Pronunciation and Grammar Gaps in Real-Time",
       icon: IoShareOutline, // share icon
     },
     {
@@ -40,16 +40,16 @@ const Benefits = ({ id }) => {
     },
     {
       id: 5,
-      title: "Connect the tools you already use",
+      title: "Fearless Expression",
       description:
-        "The most important benefit from WiderAI is about the privacy. I can record my voice and don't be afraid of judgment",
+        "The most important benefit from WiderAI is about the privacy. I can speak freely and don't be afraid of judgment",
       icon: MdOutlineKeyboardCommandKey, // share icon
     },
     {
       id: 6,
-      title: "Our people make the difference",
+      title: "No Waiting, Just Improving",
       description:
-        "I get the results within a few seconds. I have used many other apps which take more than two or 3 weeks to analyze our recordings",
+        "I get the results within a few seconds. I have used many other apps which take more than two or 3 minutes to analyse our recordings",
       icon: BsChatHeart, // share icon
     },
   ];
