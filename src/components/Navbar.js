@@ -55,7 +55,7 @@ const Navbar = () => {
             {links.map(({ href, label, children }, index) => (
               <li
                 key={index}
-                className="cursor-pointer text-[#42307D] font-medium text-[16px] navlink"
+                className="cursor-pointer text-[#0A0812] font-medium text-[16px] navlink"
               >
                 <a className="flex items-center" href={href}>
                   {label}

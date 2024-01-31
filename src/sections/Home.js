@@ -27,11 +27,11 @@ const Home = ({ id }) => {
         className="xl:pt-[96px] pt-[100px] bg-[#F9F5FF] md:pb-[50px] pb-10 overflow-hidden relative"
       >
         <Container>
-          <div className="md:mb-[48px] mb-10">
-            <h1 className="text-[#42307D] md:leading-[72px] font-semibold xl:text-[60px] md:text-[50px] text-[20px] text-center md:max-w-[85%] mx-auto">
+          <div className="md:mb-[48px] my-10">
+            <h1 className="text-[#0A0812] md:leading-[72px] font-semibold xl:text-[60px] md:text-[50px] text-[20px] text-center md:max-w-[85%] mx-auto">
               Get your real IELTS speaking results before the actual exam!
             </h1>
-            <p className="text-[#6941C6] leading-[20px] text-center mt-6 md:max-w-[60%] mx-auto font-normal">
+            <p className="text-[#475467] leading-[20px] text-center mt-6 md:max-w-[60%] mx-auto font-normal">
               AI-powered simulator to self-practice the IELTS speaking mock
               exam, job interview and everyday conversational English
             </p>
