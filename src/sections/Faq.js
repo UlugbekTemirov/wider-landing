@@ -66,13 +66,13 @@ const Faq = ({ id }) => {
               } cursor-pointer rounded-lg overflow-hidden duration-300`}
             >
               <div>
-                <span className="w-[24px] h-[24px] border-2 border-[#98A2B3] box-content relative flex justify-center items-center rounded-full hover:scale-105 duration-300 cursor-pointer">
+                <span className="w-[24px] h-[24px] border-2 border-[#FF0202] box-content relative flex justify-center items-center rounded-full hover:scale-105 duration-300 cursor-pointer">
                   <span
                     className={`h-[14px] ${
                       active === faq.id ? "rotate-[270deg]" : ""
-                    } w-[2.5px] rounded-lg duration-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#98A2B3]`}
+                    } w-[2.5px] rounded-lg duration-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FF0202]`}
                   />
-                  <span className="w-[14px] h-[2.5px] rounded-lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#98A2B3]" />
+                  <span className="w-[14px] h-[2.5px] rounded-lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FF0202]" />
                 </span>
               </div>
 

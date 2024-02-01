@@ -9,27 +9,23 @@ import Sidemenu from "./Sidemenu";
 const links = [
   {
     href: "/",
-    label: "Home",
+    label: "Products",
   },
   {
-    label: "Features",
+    label: "For Business",
     href: "#features",
   },
   {
     href: "#potential",
-    label: "Potential",
+    label: "For Schools",
   },
   {
     href: "#benefits",
-    label: "Benefits",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
+    label: "Blog",
   },
   {
     href: "#subscribe",
-    label: "About",
+    label: "About Us",
   },
 ];
 

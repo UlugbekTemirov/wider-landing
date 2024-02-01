@@ -56,30 +56,35 @@ const Features = ({ id }) => {
 
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[24px] md:mt-[64px] mt-10">
           {features.map(({ icon: Icon, title, description, link }, index) => (
-            <div className="bg-[#F9FAFB] p-[24px] rounded-[10px]" key={index}>
-              <span className="bg-[#FF0202] w-[48px] h-[48px] flex items-center justify-center rounded-[10px]">
-                <Icon size={25} color="white" />
-              </span>
+            <div
+              className="bg-[#F9FAFB] p-[24px] rounded-[10px] border shadow-sm"
+              key={index}
+            >
+              <div className="p-4">
+                <span className="bg-[#FF0202] w-[48px] h-[48px] flex items-center justify-center rounded-[10px]">
+                  <Icon size={25} color="white" />
+                </span>
 
-              <h1
-                title={title}
-                className="md:mt-10 mt-5 text-[#101828] text-[16px] font-semibold line-clamp-1"
-              >
-                {title}
-              </h1>
-              <p
-                title={description}
-                className="text-[16px] mt-2 leading-[24px] text-[#475467] font-normal line-clamp-3 h-[72px]"
-              >
-                {description}
-              </p>
-              <a
-                href={link}
-                className="flex items-center w-fit text-[#FF0202] text-[16px] gap-2 font-semibold mt-5 hover:gap-4 duration-200"
-              >
-                View all
-                <FaArrowRightLong />
-              </a>
+                <h1
+                  title={title}
+                  className="md:mt-10 mt-5 text-[#101828] text-[16px] font-semibold line-clamp-1"
+                >
+                  {title}
+                </h1>
+                <p
+                  title={description}
+                  className="text-[16px] mt-2 leading-[24px] text-[#475467] font-normal line-clamp-3 h-[72px]"
+                >
+                  {description}
+                </p>
+                <a
+                  href={link}
+                  className="flex items-center w-fit text-[#FF0202] text-[16px] gap-2 font-semibold mt-5 hover:gap-4 duration-200"
+                >
+                  View all
+                  <FaArrowRightLong />
+                </a>
+              </div>
             </div>
           ))}
         </div>

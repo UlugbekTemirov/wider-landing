@@ -12,6 +12,7 @@ import Potential from "./sections/Potential";
 import Subscribe from "./sections/Subscribe";
 import { AnimatePresence, motion } from "framer-motion";
 import { StartNowButton } from "./components/Buttons";
+import Prices from "./sections/Prices";
 
 function App() {
   const [top, setTop] = useState(0);
@@ -71,6 +72,7 @@ function App() {
       <Faq id="faq" />
       <Subscribe id="subscribe" />
       <Comments id="comments" />
+      <Prices id="prices" />
       <Partners id="partners" />
       <Footer />
     </>
