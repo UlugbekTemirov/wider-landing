@@ -9,27 +9,23 @@ import Sidemenu from "./Sidemenu";
 const links = [
   {
     href: "/",
-    label: "Home",
+    label: "Products",
   },
   {
-    label: "Features",
+    label: "For Business",
     href: "#features",
   },
   {
     href: "#potential",
-    label: "Potential",
+    label: "For Schools",
   },
   {
     href: "#benefits",
-    label: "Benefits",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
+    label: "Blog",
   },
   {
     href: "#subscribe",
-    label: "About",
+    label: "About Us",
   },
 ];
 
@@ -55,7 +51,7 @@ const Navbar = () => {
             {links.map(({ href, label, children }, index) => (
               <li
                 key={index}
-                className="cursor-pointer text-[#42307D] font-medium text-[16px] navlink"
+                className="cursor-pointer text-[#0A0812] font-medium text-[16px] navlink"
               >
                 <a className="flex items-center" href={href}>
                   {label}

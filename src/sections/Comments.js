@@ -4,10 +4,10 @@ import avatarSvg from "../assets/images/Avatar.svg";
 
 const Comments = ({ id }) => {
   return (
-    <section className="md:my-20 my-10" id={id}>
+    <section className="md:my-20 my-10 " id={id}>
       <Container>
-        <div className="bg-[#F9FAFB] rounded-[10px] px-5 md:py-[50px] py-10">
-          <h1 className="text-center text-[#6941C6] text-[14px] mb-3 font-semibold">
+        <div className="bg-[#F9FAFB] rounded-[10px] shadow-xl px-5 md:py-[50px] py-10">
+          <h1 className="text-center text-[#FF0202] text-[14px] mb-3 font-semibold">
             What does it say ?
           </h1>
           <p className=" text-[#101828] md:max-w-[80%] mx-auto font-medium xl:text-[36px] md:text-[30px] text-[20px] text-center md:leading-[44px] mb-5 italic">

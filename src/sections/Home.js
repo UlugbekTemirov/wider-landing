@@ -2,6 +2,13 @@ import React, { memo } from "react";
 import Container from "../components/Container";
 import { StartNowButton } from "../components/Buttons";
 
+import personStudent from "../assets/images/Person_5_Student.png";
+import backgroundImage from "../assets/images/image_O.png";
+import item1 from "../assets/images/item_1.png";
+import item2 from "../assets/images/item_2.png";
+import item3 from "../assets/images/item_3.png";
+import item4 from "../assets/images/item_4.png";
+
 const Home = ({ id }) => {
   const el = () => {
     const rand = Math.floor(Math.random() * 6);
@@ -27,47 +34,47 @@ const Home = ({ id }) => {
         className="xl:pt-[96px] pt-[100px] bg-[#F9F5FF] md:pb-[50px] pb-10 overflow-hidden relative"
       >
         <Container>
-          <div className="md:mb-[48px] mb-10">
-            <h1 className="text-[#42307D] md:leading-[72px] font-semibold xl:text-[60px] md:text-[50px] text-[20px] text-center md:max-w-[85%] mx-auto">
-              Get your real IELTS speaking results before the actual exam!
-            </h1>
-            <p className="text-[#6941C6] leading-[20px] text-center mt-6 md:max-w-[60%] mx-auto font-normal">
-              AI-powered simulator to self-practice the IELTS speaking mock
-              exam, job interview and everyday conversational English
-            </p>
-          </div>
-
-          <div className="flex items-center gap-3 justify-center">
-            <StartNowButton />
-          </div>
-
-          <div className="flex justify-center mx-auto relative md:mt-[64px] mt-10 md:w-[768px] w-full md:h-[432px] h-[243px] z-10">
-            <iframe
-              className="rounded-md"
-              width="100%"
-              src="https://www.youtube.com/embed/aitLkJ_VYMw?si=psbdus0WYNses5Tk"
-              title="IELTS"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-
-          <div className="h-[200px] w-[200%] -translate-x-[25%] absolute -rotate-[8deg] left-0 gap-2 bottom-[100px] grid grid-rows-3">
-            <div className="flex animate-moveleft">
-              {Array(40)
-                .fill(0)
-                .map((_) => el())}
+          <div className="md:mb-[48px] my-10 flex flex-wrap items-center justify-center relative z-20">
+            <div className="flex flex-col items-start justify-center gap-5 max-w-[530px]">
+              <h1 className="text-[#0A0812] leading-[56px] font-semibold xl:text-[42px]  text-[20px] text-start ">
+                Boost Your Confidence
+                <p className="font-light">in Spoken English</p>
+              </h1>
+              <p className="text-[#475467] leading-[20px] font-normal mb-10">
+                AI-powered simulator to self-practice the IELTS speaking test,
+                job interview and everyday conversational English
+              </p>
+              <StartNowButton />
             </div>
-            <div className="flex ml-20 animate-moveleft">
-              {Array(40)
-                .fill(0)
-                .map((_) => el())}
+            <div className="flex relative w-[580px] h-[580px] items-center justify-center mt-5">
+              <img
+                className="z-10"
+                src={personStudent}
+                alt="Person_5_Student.png"
+              />
+              <div className="absolute  top-16 right-12 shadow-sm z-10">
+                <img src={item1} alt="" />
+              </div>
+              <div className="absolute bottom-28 right-0 shadow-sm z-10">
+                <img src={item2} alt="" />
+              </div>
+              <div className="absolute  bottom-28 left-0 shadow-sm z-10">
+                <img src={item3} alt="" />
+              </div>
+              <div className="absolute  top-16 left-8 shadow-sm z-10">
+                <img src={item4} alt="" />
+              </div>
+              <img
+                className="absolute z-5"
+                src={backgroundImage}
+                alt="image_O.png"
+              />
             </div>
-            <div className="flex mr-20 animate-moveleft">
-              {Array(40)
-                .fill(0)
-                .map((_) => el())}
-            </div>
+          </div>
+          <div className=" absolute z-0 left-0 top-0 w-full h-full flex items-center justify-center opacity-50">
+            <div className="blur-3xl bg-[#32394a62] h-[75%] rounded-full aspect-square mr-[-45%]"></div>
+            <div className="blur-3xl bg-[#999bec54] h-[75%] rounded-full aspect-square "></div>
+            <div className="blur-3xl bg-[#4de2cc54] h-[75%] rounded-full aspect-square ml-[-45%]"></div>
           </div>
         </Container>
       </div>

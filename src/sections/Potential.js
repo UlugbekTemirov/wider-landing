@@ -3,18 +3,16 @@ import { StartNowSmallButton } from "../components/Buttons";
 import Container from "../components/Container";
 
 // assets
-import onlineEducationPng from "../assets/images/Online_education.png";
-import onlineEducationPng1 from "../assets/images/Online_education_1.png";
-import onlineEducationPng2 from "../assets/images/Online_education_2.png";
-import onlineEducationPng3 from "../assets/images/Online_education_3.png";
-import onlineEducationPng4 from "../assets/images/Online_education_4.png";
+import iphone1 from "../assets/images/01.svg.png";
+import iphone2 from "../assets/images/02.svg.png";
+import iphone3 from "../assets/images/03.svg.png";
 
 const Potential = ({ id }) => {
   return (
     <section className="lg:my-[70px] md:my-10 my-5" id={id}>
       <Container>
-        <div className="md:grid md:grid-cols-10 gap-5">
-          <div className="lg:col-span-6 md:col-span-5 flex flex-col justify-center">
+        <div className="flex flex-wrap gap-3 items-center justify-center">
+          <div className="lg:col-span-6 md:col-span-5 flex flex-1 justify-center">
             <div>
               <h1 className="text-[#101828] md:text-[48px] text-[28px] font-semibold md:text-left text-center">
                 Unlock Your English Potential
@@ -26,20 +24,20 @@ const Potential = ({ id }) => {
                 and weaknesses, and improve your vocabulary and grammar, or
                 receive tailored accurate Feedback.
               </p>
-              <div className="flex justify-center md:justify-start">
+              <div>
                 <StartNowSmallButton />
               </div>
             </div>
           </div>
-          <div className="lg:col-span-4 md:col-span-5 md:flex flex-col gap-4 hidden">
-            <div className="flex justify-center items-baseline gap-4">
-              <img src={onlineEducationPng1} alt="online_education.png" />
-              <img src={onlineEducationPng} alt="online_education_1.png" />
+          <div className="flex flex-4 flex-row max-w-[930px] gap-5 flex-wrap items-center justify-center">
+            <div>
+              <img src={iphone1} alt="01.svg.png" />
             </div>
-            <div className="flex justify-center items-start gap-4">
-              <img src={onlineEducationPng4} alt="online_education.png" />
-              <img src={onlineEducationPng3} alt="online_education_1.png" />
-              <img src={onlineEducationPng2} alt="online_education_1.png" />
+            <div>
+              <img src={iphone2} alt="02.svg.png" />
+            </div>
+            <div>
+              <img src={iphone3} alt="03.svg.png" />
             </div>
           </div>
         </div>

@@ -57,8 +57,8 @@ const Benefits = ({ id }) => {
   return (
     <section id={id} className="lg:py-[70px] md:py-[50px] py-10">
       <Container>
-        <h1 className="text-[#101828] lg:text-[36px] md:text-[28px] text-[24px] font-semibold text-center">
-          Benefits Our Users Receive from WiderAI
+        <h1 className="text-[#101828] lg:text-[36px] md:text-[28px] text-[24px] font-medium text-center">
+          <b>Benefits</b> Our Users Receive from <b>WiderAI</b>
         </h1>
         <p className="mt-2 text-[#475467] text-center">
           Top things from our user survey in November 2023
@@ -66,9 +66,12 @@ const Benefits = ({ id }) => {
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gris-cols-1 md:gap-8 gap-5 md:gap-y-12 lg:mt-[64px] md:mt-[50px] mt-10">
           {benefits.map((benefit) => (
-            <div key={benefit.id}>
-              <span className="rounded-full bg-[#F4EBFF] flex items-center justify-center h-[48px] w-[48px] border-[8px] border-[#F9F5FF] box-content mx-auto">
-                <benefit.icon color="#7F56D9" size={28} />
+            <div
+              className="flex flex-wrap flex-col items-center justify-center "
+              key={benefit.id}
+            >
+              <span className="rounded-full bg-[#FF0202] flex items-center justify-center h-[48px] w-[48px] border-[8px] border-[#F9F5FF] box-content mx-auto">
+                <benefit.icon color="#fff" size={28} />
               </span>
               <h1
                 title={benefit.title}
@@ -76,9 +79,11 @@ const Benefits = ({ id }) => {
               >
                 {benefit.title}
               </h1>
-              <p className="text-[16px] text-[#475467] mt-2 text-center font-light">
-                "{benefit.description}"
-              </p>
+              <div className="shadow-xl rounded-xl h-[100px]">
+                <p className=" max-w-[500px] w-[100%] p-2 h-[100%] max-h-[120px] text-[16px] text-[#475467] mt-2 text-center font-light">
+                  "{benefit.description}"
+                </p>
+              </div>
             </div>
           ))}
         </div>
