@@ -52,16 +52,16 @@ const Home = ({ id }) => {
                 src={personStudent}
                 alt="Person_5_Student.png"
               />
-              <div className="absolute  top-16 right-12 shadow-sm z-10">
+              <div className="absolute  top-16 right-12  z-10">
                 <img src={item1} alt="" />
               </div>
-              <div className="absolute bottom-28 right-0 shadow-sm z-10">
+              <div className="absolute bottom-28 right-0 z-10">
                 <img src={item2} alt="" />
               </div>
-              <div className="absolute  bottom-28 left-0 shadow-sm z-10">
+              <div className="absolute  bottom-28 left-0 z-10">
                 <img src={item3} alt="" />
               </div>
-              <div className="absolute  top-16 left-8 shadow-sm z-10">
+              <div className="absolute  top-16 left-8  z-10">
                 <img src={item4} alt="" />
               </div>
               <img
