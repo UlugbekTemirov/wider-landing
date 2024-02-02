@@ -79,7 +79,7 @@ const Benefits = ({ id }) => {
               >
                 {benefit.title}
               </h1>
-              <div className="shadow-xl rounded-xl h-[100px]">
+              <div className="shadow-xl rounded-xl h-[150px] flex items-center justify-center">
                 <p className=" max-w-[500px] w-[100%] p-2 h-[100%] max-h-[120px] text-[16px] text-[#475467] mt-2 text-center font-light">
                   "{benefit.description}"
                 </p>
