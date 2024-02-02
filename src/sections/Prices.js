@@ -128,13 +128,13 @@ const Prices = ({ id }) => {
               return (
                 <div
                   key={index}
-                  className="bg-[#f0f0f0] p-5 w-[max-content] rounded-xl h-[480px] flex flex-col justify-between"
+                  className="bg-[#f0f0f0] p-5 w-[max-content] rounded-xl h-[520px] flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex justify-between">
                       <p className="text-[16px] uppercase">plan</p>
                       {card.badge && (
-                        <span className="bg-[#EED8D8] text-[#761E1E] text-xs font-medium me-2 px-2.5 py-0.5 rounded-lg dark:bg-[#EED8D8] dark:text-[#761E1E]">
+                        <span className="bg-[#EED8D8] text-[#761E1E] text-xl font-medium me-2 px-2.5 py-0.5 rounded-lg dark:bg-[#EED8D8] dark:text-[#761E1E]">
                           {card.badge.text}
                         </span>
                       )}
@@ -158,12 +158,12 @@ const Prices = ({ id }) => {
                       </p>
                     )}
 
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-2 ">
                       {card.traffics.map((traffic, index) => {
                         return (
                           <div className="flex items-center" key={index}>
-                            <FaCheckCircle color="#2E735F" />
-                            <span>{traffic}</span>
+                            <FaCheckCircle color="#2E735F" size={20} />
+                            <span className="text-[16px]">{traffic}</span>
                           </div>
                         );
                       })}
